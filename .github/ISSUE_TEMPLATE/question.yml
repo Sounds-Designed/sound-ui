@@ -1,0 +1,23 @@
+name: "💬 Question"
+description: Ask a question about the module.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking a question, please make sure that you have read through our [documentation](https://ui.soundsdesigned.com/) and existing [issues](https://github.com/Sounds-Designed/ui/issues?q=is%3Aissue%20is%3Aopen%20sort%3Aupdated-desc).
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - v1.x
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true

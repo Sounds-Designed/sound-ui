@@ -1,0 +1,5 @@
+v1:
+  - base-branch: 'v1'
+
+main:
+  - base-branch: 'main'
