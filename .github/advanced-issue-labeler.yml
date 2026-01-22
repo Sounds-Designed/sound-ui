@@ -5,4 +5,10 @@ policy:
         block-list: []
         label:
           - name: 'v1'
-            keys: ['v1']
+            keys: ['v1.x']
+          - name: 'main'
+            keys: ['main']
+          - name: 'dev'
+            keys: ['dev']
+          - name: 'beta'
+            keys: ['beta']

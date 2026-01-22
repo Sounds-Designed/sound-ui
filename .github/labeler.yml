@@ -3,3 +3,9 @@ v1:
 
 main:
   - base-branch: 'main'
+
+dev:
+  - base-branch: 'dev'
+
+beta:
+  - base-branch: 'beta'
