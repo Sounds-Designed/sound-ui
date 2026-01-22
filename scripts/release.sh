@@ -12,5 +12,5 @@ if [[ ! -z ${NODE_AUTH_TOKEN} ]] ; then
 fi
 
 # Release package
-echo "Publishing @sounds-designed/ui"
+echo "Publishing @sounds-designed/sound-ui"
 npm publish --access public
