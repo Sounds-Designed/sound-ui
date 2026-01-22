@@ -1,9 +1,6 @@
 packages:
   - ./
   - cli
-  - docs
-  - playgrounds/nuxt
-  - playgrounds/vue
 
 ignoredBuiltDependencies:
   - '@parcel/watcher'
