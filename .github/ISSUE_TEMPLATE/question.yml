@@ -5,13 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before asking a question, please make sure that you have read through our [documentation](https://ui.soundsdesigned.com/) and existing [issues](https://github.com/Sounds-Designed/ui/issues?q=is%3Aissue%20is%3Aopen%20sort%3Aupdated-desc).
+        Before asking a question, please make sure that you have read through our [documentation](https://ui.nuxt.com/) and existing [issues](https://github.com/Sounds-Designed/sound-ui/issues?q=is%3Aissue%20is%3Aopen%20sort%3Aupdated-desc).
   - type: dropdown
     id: package
     attributes:
       label: Package
       options:
-        - v1.x
+        - v4.x
+        - v3.x
+        - v2.x
       default: 0
     validations:
       required: true
