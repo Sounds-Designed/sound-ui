@@ -6,7 +6,10 @@
     "enabled": true
   },
   "baseBranchPatterns": [
-    "main"
+    "main",
+    "dev",
+    "beta",
+    "v1"
   ],
   "ignoreDeps": [
     "typescript",
